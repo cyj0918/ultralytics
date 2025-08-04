@@ -1,0 +1,12 @@
+# Ultralytics 🚀 AGPL-3.0 License
+# Minimal YOLO11 with single Conv layer
+
+nc: 1  # 單類別偵測 (依需求調整)
+scales:
+  minimal: [0.25, 0.125, 512]  # 深度縮減75%, 寬度縮減87.5%
+
+backbone:
+  - [-1, 1, Conv, [32, 3, 2]]  # 唯一Conv層 (輸出通道32)
+
+head:
+  - [[-1], 1, Detect, [nc]]     # 直接偵測
