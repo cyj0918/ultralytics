@@ -236,7 +236,6 @@ def main():
     print("\n=== Performance Summary ===")
     print(f"Images processed: {total}")
     print(f"Avg inference: {tm['avg_inference_time_ms']:.2f} ms, FPS: {tm['fps']:.2f}")
-    print(f"Precision: {prec:.4f}, Recall: {rec:.4f}, F1: {f1:.4f}")
 
 
 if __name__ == "__main__":
