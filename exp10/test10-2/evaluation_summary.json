@@ -1,0 +1,29 @@
+{
+  "model_info": {
+    "model_path": "/Users/jhen/Documents/CUHK-Project/ultralytics/exp10/exp10/weights/best.pt",
+    "parameters_M": 2.187843,
+    "flops_G": 2.8256,
+    "device": "mps",
+    "model_size_mb": 4.362553596496582,
+    "timestamp": "2025-08-05T01:03:41.578532"
+  },
+  "timing_metrics": {
+    "total_images": 15,
+    "avg_inference_time_ms": 27.607966602469485,
+    "std_inference_time_ms": 68.3254565773168,
+    "median_inference_time_ms": 8.848666970152408,
+    "min_inference_time_ms": 7.056708971504122,
+    "max_inference_time_ms": 283.16708299098536,
+    "fps": 36.221428923003394,
+    "avg_preprocess_time_ms": 1.2977805997555454,
+    "avg_postprocess_time_ms": 28.52593333615611,
+    "total_time_ms": 1909.811042016372
+  },
+  "system_metrics": {
+    "avg_memory_usage_mb": 8560.876041666666,
+    "max_memory_usage_mb": 8565.921875,
+    "avg_mps_memory_mb": 11.7765625,
+    "max_mps_memory_mb": 12.111328125
+  },
+  "detailed_results": []
+}
