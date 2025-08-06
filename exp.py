@@ -5,8 +5,8 @@
 # yolo detect val data=yolo11n.pt data=ultralytics/cfg/datasets/mf.yaml model=runs\detect\train4\weights\best.pt batch=16 device=0
 
 # Train: yolo detect train data=ultralytics/cfg/datasets/mf.yaml model=/Users/jhen/Documents/CUHK-Project/ultralytics/ultralytics/cfg/models/modified/exp4.yaml epochs=100 batch=16 lr0=0.01 optimizer=SGD device=mps plots=True save=True project=exp4 name=exp4
-# Detect: python3 tests/exp_evaluate.py --source /Users/jhen/Documents/CUHK-Project/dataset/yolo_worker_training/images/test/  --dataset-config ultralytics/cfg/datasets/mf.yaml --model /Users/jhen/Documents/CUHK-Project/ultralytics/exp7/exp7/weights/best.pt --project exp7 --name test7-1
-# Statistic: python3 tests/exp_statistic.py --gt-dir /Users/jhen/Documents/CUHK-Project/dataset/yolo_worker_training/labels/test/ --pred-dir /Users/jhen/Documents/CUHK-Project/ultralytics/exp6/test6-3/labels --output /Users/jhen/Documents/CUHK-Project/ultralytics/exp6/test6-3/statistics.json
+# Detect: python3 tests/exp_evaluate.py --source /Users/jhen/Documents/CUHK-Project/dataset/yolo_worker_training/images/test/  --dataset-config ultralytics/cfg/datasets/mf.yaml --model /Users/jhen/Documents/CUHK-Project/ultralytics/exp8/exp8/weights/best.pt --project exp8 --name test8-1
+# Statistic: python3 tests/exp_statistic.py --gt-dir /Users/jhen/Documents/CUHK-Project/dataset/yolo_worker_training/labels/test/ --pred-dir /Users/jhen/Documents/CUHK-Project/ultralytics/exp7/test7-3/labels --output /Users/jhen/Documents/CUHK-Project/ultralytics/exp7/test7-3/statistics.json
 
 #!/usr/bin/env python3
 """
