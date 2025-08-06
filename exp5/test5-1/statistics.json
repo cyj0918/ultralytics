@@ -1,0 +1,16 @@
+{
+  "performance_metrics": {
+    "Precision": 0.21052631578947367,
+    "Recall": 0.2,
+    "F1_Score": 0.20512820512820512
+  },
+  "localization_table": [
+    {
+      "Class_ID": 0,
+      "Avg_IoU_TP": 0.7930952399692659,
+      "IoU_Std": 0.04336524283516818,
+      "Dice_Coefficient": 0.8839717083271242,
+      "Box_MSE": 0.0006193026978684109
+    }
+  ]
+}
