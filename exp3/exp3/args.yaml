@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: ultralytics/cfg/models/modified/exp3.yaml
+model: /Users/jhen/Documents/CUHK-Project/ultralytics/ultralytics/cfg/models/modified/exp3.yaml
 data: ultralytics/cfg/datasets/mf.yaml
 epochs: 100
 time: null

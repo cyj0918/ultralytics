@@ -5,7 +5,7 @@ test_experiments.py
 自動執行YOLO測試實驗，包含記憶體清理以確保準確的推理速度測試
 針對已訓練的模型執行多輪測試
 
-Usage: python3 test_experiments.py --start-exp 5 --end-exp 10
+Usage: python3 test_experiments.py --start-exp 2 --end-exp 10
 """
 
 import subprocess
